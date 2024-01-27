@@ -1,8 +1,29 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# TypeScript React Native & Tailwind CSS
 
-# Getting Started
+This is a new [**TypeScript React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli) integrated with Tailwind CSS functionalities from [**Tailwind React Native Classnames**](https://github.com/jaredh159/tailwind-react-native-classnames).
+
+## Getting Started
+
+## Step 1: Clone Repository
+
+```bash
+   git clone https://github.com/nnoromiv/rnTailwind.git
+```
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> Install add dependencies
+
+```bash
+   cd rnTailwind
+```
+
+```bash
+# using npm
+   npm install
+
+# OR using Yarn
+   yarn add 
+```
 
 ## Step 1: Start the Metro Server
 
@@ -12,10 +33,10 @@ To start Metro, run the following command from the _root_ of your React Native p
 
 ```bash
 # using npm
-npm start
+   npm start
 
 # OR using Yarn
-yarn start
+   yarn start
 ```
 
 ## Step 2: Start your Application
@@ -50,10 +71,28 @@ This is one way to run your app — you can also run it directly from within And
 
 Now that you have successfully run the app, let's modify it.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
+1. Open `Home.tsx` in your text editor of choice and edit some lines.
 2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## Step 4: Using the Tailwind
+
+```code
+
+   import tw from './tailwind'; // The import is relative to your file structure
+
+   const MyComponent = () => (
+   <View style={tw`p-4 android:pt-2 bg-white dark:bg-black`}>
+      <Text style={tw`text-md text-black dark:text-white`}>Hello World</Text>
+   </View>
+   );
+
+```
+
+## Features
+
+[**For Full Tailwind Feature visit TWRNC**](https://github.com/jaredh159/tailwind-react-native-classnames)
 
 ## Congratulations! :tada:
 
@@ -64,11 +103,11 @@ You've successfully run and modified your React Native App. :partying_face:
 - If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
 - If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
 
-# Troubleshooting
+## Troubleshooting React Native
 
 If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-# Learn More
+## Learn More about React Native
 
 To learn more about React Native, take a look at the following resources:
 
