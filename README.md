@@ -11,7 +11,8 @@ This is a new [**TypeScript React Native**](https://reactnative.dev) project, bo
 ```
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
-> Install add dependencies
+
+>**Dependencies** Install all dependencies
 
 ```bash
    cd rnTailwind
@@ -78,7 +79,7 @@ Now that you have successfully run the app, let's modify it.
 
 ## Step 4: Using the Tailwind
 
-```code
+```ts
 
    import tw from './tailwind'; // The import is relative to your file structure
 
@@ -92,7 +93,9 @@ Now that you have successfully run the app, let's modify it.
 
 ## Features
 
-[**For Full Tailwind Feature visit TWRNC**](https://github.com/jaredh159/tailwind-react-native-classnames)
+[**Jared Henderson Profile**](https://github.com/jaredh159)
+
+[**Visit the Official Tailwind React Native Classname by Jared Henderson**](https://github.com/jaredh159/tailwind-react-native-classnames)
 
 ## Congratulations! :tada:
 
