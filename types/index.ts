@@ -1,6 +1,10 @@
 import { ReactNode } from "react";
 
-export interface SectionProps {
-    children: ReactNode
-    title: string;
+// Example Type Style
+export interface CustomButtonProps {
+    children?: ReactNode
+    title: string
+    style?: any,
+    textStyle?: any
+    onPress?: () => void
 };

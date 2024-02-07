@@ -1,5 +1,7 @@
-import tailwind, { TailwindFn } from 'twrnc';
+import tailwind, { TailwindFn, create } from 'twrnc';
 
-const tw :TailwindFn = tailwind
+let tw :TailwindFn = tailwind
+
+tw = create(require(`./tailwind.config`))
 
 export default tw

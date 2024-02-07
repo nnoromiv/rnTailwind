@@ -93,6 +93,9 @@ Now that you have successfully run the app, let's modify it.
 
 ## Features
 
+- Stack Navigation library.
+- Tailwind by TWRNC see more detail from the links provided below
+
 [**Jared Henderson Profile**](https://github.com/jaredh159)
 
 [**Visit the Official Tailwind React Native Classname by Jared Henderson**](https://github.com/jaredh159/tailwind-react-native-classnames)

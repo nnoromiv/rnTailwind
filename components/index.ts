@@ -1,5 +1,5 @@
-import { Section } from "./Section";
+import { Button } from "./Auth/Button";
 
 export {
-    Section
+    Button
 }

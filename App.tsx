@@ -6,28 +6,13 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  StatusBar,
-  useColorScheme,
-} from 'react-native';
-
-import tw from './tailwind';
-import { Home } from './screens';
+import { AuthStack } from './Stacks'
 
 export const backgroundStyle = "bg-neutral-300 dark:bg-slate-900"
 
-
-function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
+function App() {
   return (
-    <SafeAreaView style={tw`${backgroundStyle}`}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-      />
-      <Home />
-    </SafeAreaView>
+    <AuthStack />
   );
 }
 

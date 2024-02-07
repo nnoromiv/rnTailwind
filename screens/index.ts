@@ -1,5 +1,5 @@
-import Home from "./Home";
+import Welcome from "./Auth/Welcome";
 
 export {
-    Home
+    Welcome
 }
